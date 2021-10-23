@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    flex: 1
 }
 
 ul {
@@ -32,15 +33,56 @@ li {
 
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    background-color: #1f2937;
+}
 
+.hero .image {
+    width: 690px;  
 }
 
 .hero .container {
+    width: 570px;
+}
+
+
+.container .main-text {
+    font-size: 48px;
+    width: 400px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.container .secondary {
+    font-size: 18px;
+    width: 525px;
+    color: #e5e7eb;
+}
+
+.container button {
+    font-size: 18px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    padding: 8px 20px;
+    width: 150px;
+    font-weight: bolder;
+    border-radius: 10%;
+}
+
+.container div {
+    margin-bottom: 10px;
+}
+
+.hero .image {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    width: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d747d;
+}
+
+.image div {
+    font-size: 18px;
+    color: #f9faf8;
 }
 
