@@ -1,7 +1,12 @@
+html {
+    height: 100vh;
+}
+
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0;   
     flex: 1
 }
 
@@ -35,9 +40,10 @@ li {
     display: flex;
     justify-content: center;
     background-color: #1f2937;
+    
 }
 
-.hero .image {
+.hero .hero-image {
     width: 690px;  
 }
 
@@ -74,15 +80,37 @@ li {
     margin-bottom: 10px;
 }
 
-.hero .image {
+.hero .hero-image {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #6d747d;
 }
 
-.image div {
+.hero-image div {
     font-size: 18px;
     color: #f9faf8;
+}
+
+.info-title {
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.box-container div {
+    width: 200px;
+}
+
+.image {
+    border: 2px solid #3882f6;
+    width: 175px;
+    height: 175px;
 }
 
