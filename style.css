@@ -1,13 +1,10 @@
-html {
-    height: 100vh;
-}
+
 
 body {
-    height: 100vh;
+    
     display: flex;
     flex-direction: column;
     margin: 0;   
-    flex: 1
 }
 
 /* header section */
@@ -168,4 +165,25 @@ li {
     text-align: end;
     color: #1f2937;
     font-weight: bolder;
+}
+
+/* call to action */
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    display: flex;
+    width: 75%;
+    
+}
+
+.text {
+    flex: 1;
+}
+
+.button {
+    flex: 1;
 }
