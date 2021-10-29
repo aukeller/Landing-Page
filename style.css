@@ -1,10 +1,11 @@
 
 
 body {
-    
     display: flex;
     flex-direction: column;
     margin: 0;   
+    height: 250vh;
+    font-family: Helvetica;
 }
 
 /* header section */
@@ -43,11 +44,13 @@ li {
     justify-content: center;
     background-color: #1f2937;
     flex: 1;
+    align-items: center;
     
 }
 
 .hero .hero-image {
-    width: 690px;  
+    width: 690px;
+    height: 244px;  
 }
 
 .hero .container {
@@ -98,6 +101,7 @@ li {
 /* info section */
 .info-section {
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
 }
@@ -151,7 +155,7 @@ li {
 }
 
 .box {
-    width: 1100px;
+    width: 800px;
 }
 
 .quote {
@@ -172,18 +176,40 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .action-box {
     display: flex;
     width: 75%;
-    
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    gap: 100px;
+    border-radius: 10px;
 }
 
 .text {
-    flex: 1;
+    color: #f9faf8;
+    font-size: 22px;
+    font-weight: bolder;
 }
 
-.button {
-    flex: 1;
+.sub-text {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #e5e7eb;
+}   
+
+button {
+    display: flex; 
+    justify-content: center;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    color: #f9faf8;
+    padding: 8px 45px;
+    font-size: 18px;
+    font-weight: bolder;
 }
