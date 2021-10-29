@@ -15,7 +15,7 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 16px;
+    gap: 60px;
 }
 
 li {
@@ -35,6 +35,8 @@ li {
 .header div {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bolder;
+
 }
 
 /* hero section */
@@ -119,6 +121,7 @@ li {
 
 .subtext {
     font-size: 18px;
+    color: #626c57;
 }
 
 
@@ -155,20 +158,21 @@ li {
 }
 
 .box {
-    width: 800px;
+    width: 900px;
 }
 
 .quote {
     font-size: 36px;
-    font-weight: lighter;
+    font-weight:100;
     font-style: italic;
-    color: #1f2937;
+    color: #464f5b;
 }
 
 .signature {
     text-align: end;
     color: #1f2937;
     font-weight: bolder;
+    font-size: 20px;
 }
 
 /* call to action */
@@ -181,18 +185,18 @@ li {
 
 .action-box {
     display: flex;
-    width: 75%;
+    width: 70%;
     background-color: #3882f6;
     justify-content: center;
     align-items: center;
-    height: 25%;
-    gap: 100px;
+    height: 30%;
+    gap: 300px;
     border-radius: 10px;
 }
 
 .text {
     color: #f9faf8;
-    font-size: 22px;
+    font-size: 32px;
     font-weight: bolder;
 }
 
